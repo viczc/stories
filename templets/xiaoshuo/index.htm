@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"> 
+<title>{dede:global.cfg_indexname/}</title>
+<meta name="keywords" content="{dede:global.cfg_indexname/}">
+<meta name="description" content="《{dede:global.cfg_indexname/}》最新章节免费阅读">
+<link href="{dede:global.cfg_templets_skin/}/images/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+ <div class="book_news" style="margin-top:10px;">
+                	<div class="book_news_title title">
+                    	<ul>
+                        <li>当前位置：<a href="{dede:global.txtdown/}" target="_blank">{dede:global.cfg_indexname/}首页</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="{dede:global.cfg_basehost/}" onclick="addfavorite()" style="cursor:pointer" ;="">收藏本站</a></li>
+                        </ul>
+                    </div>
+                    <div class="book_news_style">
+                    <div class="book_news_style_img1"><img alt="{dede:global.cfg_indexname/}" src="{dede:global.cfg_templets_skin/}/images/3s.jpg">
+		<br>  
+	<div id="mark_bar">
+	<br>   
+            <div><a href="{dede:global.cfg_basehost/}" target="_blank"><span class="txtdown">{dede:global.cfg_indexname/}TXT下载</span></a></div>
+          </div>
+		</div>
+	  
+	<div class="book_news_style_form1">
+	 <div class="book_news_style_text2">
+         <h1>{dede:global.cfg_indexname/}</h1>
+         <h2>作者：{dede:global.author/}</h2>
+         <h2>所属类别：{dede:global.liebie/}</h2><h2>状态：{dede:global.zhuangtai/}</h2>
+	 		 {dede:arclist row=1 typeid='1,2'} 
+         <h3>最新章节：<a href="[field:arcurl/]">[field:title/]</a> </h3>	
+		 {/dede:arclist} 	 
+      </div>
+         <div class="book_article_title">{dede:global.cfg_indexname/}介绍：</div>       <div class="msgarea">
+           <p>{dede:global.cfg_description/}</p>
+             </div>
+	    </div> 
+            <div class="clear">
+  
+  
+ 
+  </div> 
+ 	<br>
+ <div class="book_article_texttable">  
+ 
+ {dede:channelartlist typeid='1,2'}
+     <div class="book_article_texttitle">  
+ 
+     {dede:type}<a href='[field:typelink/]'>[field:typename/]</a>{/dede:type}      
+
+
+ 
+ </div>   <div class="book_article_listtext"><dl id="chapterlist">  
+{dede:arclist orderway='asc' row='50'}
+	 <dl id="chapterlist">    <dd><a href="[field:arcurl/]" class="title">[field:title/]</a></dd></dl>
+    {/dede:arclist} 
+ <div class="clear"></div></div>    {/dede:channelartlist}
+ 
+  
+ </div></div> 
+ <div class="footer11">
+<p class="lj1">&nbsp;&nbsp; 友情链接：{dede:flink row='24' function="(str_replace(array('<li>','</li>'),'',@me))"/} </p>
+</div>
+</div>
+<div class="footer w890 center mt1 clear">
+<p class="copyright">本站所有小说为转载作品，所有章节均由网友上传，转载至本站只是为了宣传本书让更多读者欣赏。<br>
+Copyright &#169; 2012 单本小说 All Rights Reserved. 站长统计
+</div>
+</body></html>

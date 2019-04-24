@@ -1,0 +1,1 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.yd631.com/','美国主机','','','','1350562498','1','2');
